@@ -42,6 +42,28 @@ font-weight: bold;
 	color: #d55a5a;
 	}
 
+	.second__list li {
+		list-style-type: none;
+		font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+		font-size: 20px;
+		text-align: left;
+		color: #273d46;
+		margin: 0px 0px 0px -38px;
+		padding-bottom: 9px;
+	}
+	.second__list li::before {
+		content: '';
+		background: url('../IMG/check-icon.png') no-repeat;
+		width: 25px;
+		height: 19px;
+		display: inline-block;
+		padding-left: 8px;
+	}
+
+	.second__list :nth-child(2):hover {
+		color: #d55a5a;
+		}
+
 .buttom {
 }
 .buttom__link {
